@@ -1,0 +1,43 @@
+
+.main{
+    background-color:#6DCCAA;
+}
+
+.header{
+    background-color:#4DE68C;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+#logo{
+    
+    padding: 3px;
+}
+ul{
+    list-style: none;
+}
+li a{
+    color:#ffffff;
+    text-decoration: none;
+    padding:7px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 6mm;
+}
+#texto1 {
+    font-family: 'PT Sans', sans-serif;
+font-size: 5mm;
+}
+
+#texto2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5mm;
+    }
+
+#texto3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5mm;  
+}
+
