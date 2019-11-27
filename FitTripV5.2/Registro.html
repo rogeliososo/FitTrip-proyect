@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registro</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-10/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/RegistroStyle.css">
+
+  <link rel="icon" type="image/png" href="img/Logo fittrip.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+
+  <style>
+    .fondo {
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .gris {
+      background: rgba(0, 0, 0, 0.199);
+    }
+
+    .top-nav-collapse {
+      background: rgba(0, 128, 0, 0.774);
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+  </head>
+
+  <body>
+
+    <!-- ULTIMATE NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark gris scrolling-navbar fixed-top">
+
+      <div class="container">
+        <img id="logo" class="img-fluid" src="img/Logo FitTrip.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Inicio </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Registrarse <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Login.html">Login</a>
+            </li>
+          </ul>
+
+
+
+        </div>
+
+      </div>
+    </nav>
+
+
+
+    <section class="parallax d-flex align-items-center justify-content-center" id="seccion1">
+                      <!--Registro usuario-->
+      <form action="resultado.html" method="GET" class="form-horizontal text-white " id="Registro"
+      <fieldset>
+          <div class="">
+            <legend  class="text-white">Registro Usuario</legend>
+          </div>
+
+
+          <div class="form-group ">
+            <div class="">
+
+              <label class="md-4 control-label" for="textinput">Usuario</label>
+            </div>
+
+            <div class="">
+
+              <div class="md-4">
+                <input id="textinput" name="nombre" type="text" placeholder="Ingrese un Nombre de Usuario"
+                  class="form-control input-md">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <div class="">
+
+              <label class="md-4 control-label" for="textinput">Correo Electronico</label>
+            </div>
+            <div class="">
+              <div class="md-4">
+                <input id="textinput" name="correo" type="text" placeholder="Ingrese su Correo"
+                  class="form-control input-md">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="form-group">
+
+            <div class="">
+
+              <label class="-md-4 control-label" for="passwordinput">Contraseña</label>
+            </div>
+
+            <div class="">
+              <div class="md-4">
+                <input id="passwordinput" name="contraseña" type="password" placeholder="Ingrese una Contraseña"
+                  class="form-control input-md">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <div class="d-flex justify-content-center">
+
+              <label class="md-4 control-label" for="passwordinput">Confirmar Contraseña</label>
+            </div>
+            <div class="d-flex justify-content-center">
+
+              <div class="md-4">
+                <input id="passwordinput" name="confirmar" type="password" placeholder="Confirme su Contraseña"
+                  class="form-control input-md">
+              </div>
+            </div>
+
+          </div>
+
+         
+            <div class="d-flex justify-content-center">
+              <div class="md-4">
+                <button type="submit" class="btn btn-primary">Registrar</button>
+              </div>
+
+           
+
+          </div>
+
+        </fieldset>
+      </form>
+
+    </section>
+    <section class="parallax" id="seccion2">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <!--Registro fisico-->
+      <form class="form-horizontal text-white d-flex align-items-center justify-content-center  id="Fisico">
+
+        <fieldset>
+
+
+          <legend >Registro Fisico</legend>
+
+
+          <div class="form-group">
+
+            <label class="md-4 control-label" for="checkboxes">Sexo</label>
+            <div class="md-4">
+              <div class="checkbox">
+                <label for="checkboxes-0">
+                  <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                  Masculino
+                </label>
+
+
+
+              </div>
+              <div class="checkbox">
+                <label for="checkboxes-1">
+                  <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                  Femenino
+                </label>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label class="md-4 control-label" for="selectbasic">Edad</label>
+            <div class="md-4">
+              <select id="selectbasic" name="selectbasic" class="form-control">
+                <option value="1">18</option>
+                <option value="2">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="md-4 control-label" for="textinput">Peso (kg)</label>
+            <div class="md-4">
+              <input id="textinput" name="Peso" type="text" placeholder="Ingrese su peso"
+                class="form-control            input-md">
+              <span class="help-block">Ejemplo: 70 kg</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="md-4 control-label" for="textinput">Altura</label>
+            <div class="md-4">
+              <input id="textinput" name="Altura" type="text" placeholder="Ingrese su altura"
+                class="form-control            input-md">
+              <span class="help-block">Ejemplo : 1,70cm</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="md-4">
+              <button id="singlebutton" name="singlebutton" class="btn btn-primary">Registrar</button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+
+
+
+
+    </section>
+
+    <section class="parallax d-flex align-items-center" id="seccion3">
+
+      <!-- Planes-->
+      <div class="card-group ">
+        <div class="card">
+          <img src="img/Plan1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Plan Principiante</h3>
+            <p class="card-text">Este plan está enfocado para gente que no ha entrenado antes y se han incorporado recientemente al mundo fitnes</p>
+            <div class="form-group">
+              <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Escoger</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/Plan2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Plan Normal</h3>
+            <p class="card-text">Este plan está enfocado para todas aquellas personas que realicen ejercicio de manera ocacional, gente no sedentaria pero que su nivel de entrenamiento no es alto</p>
+            <div class="form-group">
+              <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Escoger</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/Plan3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Plan Avanzado</h3>
+            <p class="card-text">Este plan está enfocado para personas que realizan ejercicio de manera active, 3 a 4 veces por semana y ya tienen plena noción de lo que buscan</p>
+            <div class="form-group">
+              <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Escoger</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    </section>
+
+
+    
+
+
+    
+
+  
+ 
+      <!-- JQuery -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+  </body>
+
+</html>
